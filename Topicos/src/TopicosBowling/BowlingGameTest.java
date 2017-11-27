@@ -40,7 +40,8 @@ public class BowlingGameTest {
 		assertEquals(16, g.score());
 	
 	}
-	
+//	Para este caso se tira un pleno y el siguiente suma doble
+//	luego compara el resultado esperado con un resultado 
 	@Test
 	public void testOneStrike() {
 		g.roll(10);
